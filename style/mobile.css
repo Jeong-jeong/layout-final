@@ -5,8 +5,7 @@
   background-color: #fdded8;
 }
 
-.landing-content,
-.service-content {
+.landing-content {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -39,6 +38,7 @@
 /* Service section */
 .service {
   background-color: #f4f5f7;
+  padding: 80px 0;
 }
 
 .service-title {
@@ -48,6 +48,6 @@
   margin-bottom: 16px;
 }
 
-.service-title:last-of-type {
-  margin-top: 40px;
+.service .col-12:first-child {
+  margin-bottom: 40px;
 }

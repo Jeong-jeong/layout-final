@@ -33,24 +33,12 @@
   }
 
   /* Service section */
-  .service {
-    background-color: #f4f5f7;
-  }
 
   .service-content {
     display: flex;
     flex-direction: row;
     height: auto;
     padding: 80px 0;
-  }
-
-  .service-content .left {
-    width: 370px;
-    margin-right: 110px;
-  }
-
-  .service-content .right {
-    width: 450px;
   }
 
   .service-title {
