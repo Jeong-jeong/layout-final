@@ -1,11 +1,12 @@
-/* Landing */
+/* Landing section */
 
 .landing {
   text-align: center;
   background-color: #fdded8;
 }
 
-.landing-content {
+.landing-content,
+.service-content {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -21,6 +22,7 @@
 }
 
 .landing-desc {
+  line-height: 1.375;
   margin-bottom: 24px;
 }
 
@@ -32,4 +34,20 @@
 
 .landing .btn-group .fill-btn:first-child {
   margin-right: 8px;
+}
+
+/* Service section */
+.service {
+  background-color: #f4f5f7;
+}
+
+.service-title {
+  font-size: 22px;
+  line-height: 1.3636363636;
+  letter-spacing: -0.04em;
+  margin-bottom: 16px;
+}
+
+.service-title:last-of-type {
+  margin-top: 40px;
 }
