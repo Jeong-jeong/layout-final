@@ -1,0 +1,33 @@
+/* >= 768px (Desktop) */
+@media screen and (min-width: 768px) {
+  .landing-content {
+    height: auto;
+    padding: 120px 0;
+  }
+
+  .landing-title {
+    font-size: 70px;
+    line-height: 1.0285714286;
+    margin-bottom: 32px;
+  }
+
+  .landing-desc {
+    margin-bottom: 32px;
+  }
+
+  p {
+    font-size: 22px;
+    line-height: 1.4545454545;
+  }
+
+  .fill-btn {
+    width: 160px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 1.5555555556;
+  }
+
+  .landing .btn-group .fill-btn:first-child {
+    margin-right: 16px;
+  }
+}
