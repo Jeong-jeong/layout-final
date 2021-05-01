@@ -55,7 +55,7 @@
 /* Program section  */
 .program {
   background-color: transparent;
-  padding: 80px 0 1025px;
+  padding-top: 80px;
 }
 
 .program-title,
@@ -67,5 +67,44 @@
 }
 
 .programs {
-  display: none;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 56px 0;
+}
+
+.program-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 299px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 6px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.program-img:last-child {
+  margin-bottom: 0;
+}
+
+.program-img img {
+  height: 195px;
+  margin-bottom: 16px;
+}
+
+.program-img .campus {
+  width: 142.21px;
+}
+.program-img .remote {
+  width: 146.06px;
+}
+.program-img .part-time {
+  width: 122.04px;
+}
+
+.programs-title {
+  font-size: 18px;
+  line-height: 1.3333333333;
+  letter-spacing: -0.02em;
 }
