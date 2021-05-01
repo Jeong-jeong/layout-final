@@ -65,3 +65,7 @@
   letter-spacing: -0.03em;
   margin-bottom: 24px;
 }
+
+.programs {
+  display: none;
+}
