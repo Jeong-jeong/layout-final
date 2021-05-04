@@ -55,21 +55,6 @@
 /* Program section  */
 .program {
   background-color: transparent;
-  padding-top: 80px;
-}
-
-.program-title,
-.curriculum-title {
-  font-size: 34px;
-  line-height: 1.0588235294;
-  letter-spacing: -0.03em;
-  margin-bottom: 24px;
-}
-
-.programs {
-  display: inline-flex;
-  flex-direction: column;
-  padding: 56px 0;
 }
 
 .program-img {
@@ -77,11 +62,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 290px;
-  height: 299px;
+  width: 100%;
+  height: 291px;
   margin-bottom: 20px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 6px 0 rgba(0, 0, 0, 0.05);
   border-radius: 8px;
+  background-color: #fff;
 }
 
 .program-img:last-child {
@@ -89,6 +75,8 @@
 }
 
 .program-img img {
+  display: block;
+  width: auto;
   height: 195px;
   margin-bottom: 16px;
 }
@@ -105,6 +93,22 @@
 
 .programs-title {
   font-size: 18px;
+  font-weight: 700;
   line-height: 1.3333333333;
   letter-spacing: -0.02em;
+}
+
+/* Curriculum section */
+.curriculum .fill-btn {
+  margin: 32px 0 48px;
+}
+
+.curriculum-desc {
+  font-size: 15px;
+  line-height: 1.4666666667;
+  letter-spacing: -0.01em;
+}
+
+.curriculum-desc:first-child {
+  margin-bottom: 40px;
 }
