@@ -65,14 +65,28 @@ p,
   letter-spacing: -0.01em;
 }
 
-.category {
+.section {
+  padding: 80px 0 80px;
+}
+
+.section-category {
   display: inline-block;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
   color: #009b4d;
   margin-bottom: 8px;
 }
 
-.category.blue {
+.section-category.blue {
   color: #0189d1;
+}
+
+.section-title {
+  font-size: 34px;
+  line-height: 1.0588235294;
+  letter-spacing: -0.03em;
+  margin-bottom: 24px;
 }
 
 .fill-btn {
