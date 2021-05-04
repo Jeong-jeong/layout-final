@@ -89,6 +89,10 @@ p,
   margin-bottom: 24px;
 }
 
+.section-desc {
+  margin-bottom: 32px;
+}
+
 .fill-btn {
   display: inline-flex;
   justify-content: center;
