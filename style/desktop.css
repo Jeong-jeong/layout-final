@@ -140,20 +140,22 @@
   }
 
   form {
-    display: flex;
     height: 56px;
+  }
+
+  .input-group {
+    display: flex;
     margin-bottom: 8px;
   }
 
   input {
-    width: 68%;
     height: auto;
     margin-bottom: 0;
     margin-right: 8px;
   }
 
   form .fill-btn {
-    display: block;
+    flex-shrink: 0;
     width: 160px;
     line-height: 1.3333333333;
     letter-spacing: -0.02em;
